@@ -36,7 +36,6 @@ $s$ is a valid ASCII string without any spaces.
 
 **Sample Input**
 ```
-11
 middle-Outz
 2
 ```
