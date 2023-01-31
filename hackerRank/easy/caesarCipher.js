@@ -12,11 +12,8 @@ function encrypt(charCode, char, k){
     let encrypt
     if(k > 25) k = k - (26 * (Math.floor(k / 25)))
     if(charCode >=97 && charCode <=122){
-        if(charCode+k > 122 ) {
-            charCode = 96  + (charCode - 122)
-            encrypt = String.fromCharCode(charCode+k)
-        }
-        else encrypt = String.fromCharCode(charCode+k)        
+        if(charCode+k > 122 ) charCode = 96  + (charCode - 122)
+        encrypt = String.fromCharCode(charCode+k)    
     }
     //////////////////////////////////////////////
      else if(charCode >=65 && charCode <=90){
