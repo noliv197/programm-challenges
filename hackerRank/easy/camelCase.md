@@ -1,4 +1,4 @@
-There is a sequence of words in CamelCase as a string of letters, , having the following properties:
+There is a sequence of words in CamelCase as a string of letters, $s$ , having the following properties:
 
 * It is a concatenation of one or more words consisting of English letters.
 
@@ -6,43 +6,39 @@ There is a sequence of words in CamelCase as a string of letters, , having the f
 
 * For each of the subsequent words, the first letter is uppercase and rest of the letters are lowercase.
 
-Given , determine the number of words in _s_.
+Given , determine the number of words in $s$.
 
 **Example**
-_s = oneTwoThree_
+```
+s = oneTwoThree
+```
 
 There are  words in the string: 'one', 'Two', 'Three'.
 
 **Function Description**
-
 Complete the camelcase function in the editor below.
 
 camelcase has the following parameter(s):
 
-* string _s_: the string to analyze
+* string $s$: the string to analyze
 
 **Returns**
-
-* int: the number of words in _s_
+* int: the number of words in $s$
 
 **Input Format**
-
-A single line containing string _s_.
+A single line containing string $s$.
 
 **Constraints**
-```1 <= length of s <= 10**5```
+$1 \leq length of s \leq $ $10$<sup>$5$</sup>
 
 **Sample Input**
-
 ```saveChangesInTheEditor```
 
 **Sample Output**
-
 ```5```
 
 **Explanation**
-
-String _s_ contains five words:
+String $s$ contains five words:
 
 1. save
 2. Changes
