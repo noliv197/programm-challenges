@@ -1,3 +1,4 @@
+// review code
 function getMoneySpent(keyboards, drives, b) {
     let sumArr = []
     if(Math.min(...keyboards)+Math.min(...drives) > b) return -1
